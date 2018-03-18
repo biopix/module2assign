@@ -21,7 +21,7 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-  color: pink;
+  color: blue;
 }
 
 #nav-list {
@@ -34,8 +34,8 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  color: red;
-  background: #E7E7E7;
+  color: orange;
+  background: blue;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -51,7 +51,7 @@ body {
 .container {
   width: 100%;
   float: left;
-  background-color: #999999;
+  background-color: black;
   }
 #main-content {
     background-color: white;
