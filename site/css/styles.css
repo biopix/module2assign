@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand a {
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  line-height: .2;
+  text-shadow: 2px 2px black;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  color: blue;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  background-color: black;
+  opacity: .5;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: orange;
+  background: blue;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+  background-color: black;
+}
+.navbar-header button.navbar-toggle {
+  
+  margin-top: 10px;
+}
+.container {
+  width: 100%;
+  float: left;
+  background-color: black;
+  }
+#main-content {
+    background-color: white;
+}
+#description {
+    background-color: lightgray;
+    min-height: 1000px;
+}
+/*End I Added*/
+/********** Medium devices only **********/
+@media (min-width: 992px){
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 2em;
+  }
+  #collapsable-nav {
+   
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
